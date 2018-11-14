@@ -1,0 +1,3 @@
+<view>{{count}}</view>
+<button bindtap="setCount" data-arg="{{count + 1}}">{{title}}</button>
+<button bindtap="setTitle" data-arg="{{title + '(' + count + ')'}}">update btn text</button>
